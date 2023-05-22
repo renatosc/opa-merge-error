@@ -1,18 +1,17 @@
-{"schema1": {
+{
      "$schema": "http://json-schema.org/draft-07/schema",
      "$id": "policy1schema",
      "type": "object",
      "description": "The root schema comprises the entire JSON document.",
      "required": [
-         "role2"
+         "role"
      ],
      "properties": {
-         "role2": {
-             "$id": "#/properties/role2",
+         "role": {
+             "$id": "#/properties/role",
              "type": "string",
              "description": "Role name."
          }         
      },
      "additionalProperties": false
-}
 }
