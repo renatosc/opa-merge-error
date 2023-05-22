@@ -4,11 +4,11 @@
      "type": "object",
      "description": "The root schema comprises the entire JSON document.",
      "required": [
-         "dept"
+         "department"
      ],
      "properties": {
-         "dept": {
-             "$id": "#/properties/dept",
+         "department": {
+             "$id": "#/properties/department",
              "type": "string",
              "description": "Department name"
          }         
